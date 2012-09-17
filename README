@@ -9,3 +9,25 @@ to show Twitter TimeLine with thumbnails and replaced links.
 
 Using external utility,
 https://github.com/themattharris/tmhOAuth/blob/master/tmhUtilities.php
+
+詳しい説明はこちら
+http://tech.halulu.org/2011/12/01/547/
+
+---------------------------------------------
+twittertimeline_alltweet.php
+---------------------------------------------
+
+To disply one user's all tweets (within 3200 tweets)
+*the sample code display all my tweets (@halulu) by dump . It has to write up all letters and it process pretty slow when the php code is executed on web browser. 
+
+1.	Request 200 tweets ( current time to past )
+2.	Request 200 tweets ( the last one of the previously requested tweets )
+3.	Continue 1 and 2 16 times or until less than 200 tweets are returned, meanwhile all returned tweets are added to in an array.
+4.	Dump array.
+
+More detail instruction (Japanese)
+詳しい説明はこちら
+http://tech.halulu.org/2012/08/31/1002/
+
+Refered to
+https://dev.twitter.com/docs/working-with-timelines
