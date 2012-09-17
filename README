@@ -17,7 +17,7 @@ http://tech.halulu.org/2011/12/01/547/
 twittertimeline_alltweet.php
 ---------------------------------------------
 
-To disply one user's all tweets (within 3200 tweets)
+To display one user's all tweets (within 3200 tweets)
 *the sample code display all my tweets (@halulu) by dump . It has to write up all letters and it process pretty slow when the php code is executed on web browser. 
 
 1.	Request 200 tweets ( current time to past )
